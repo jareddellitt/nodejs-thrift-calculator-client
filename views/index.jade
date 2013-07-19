@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    select#operation
+        option(value="add") Add
+        option(value="subtract") Subtract
+        option(value="multiply") Multiply
+        option(value="divide") Divide
+
+    input#first
+    input#second
+
+    button#calculate Calculate
+
+    span Result:
+        span#result
+
